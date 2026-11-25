@@ -1,0 +1,23 @@
+name: Build BudgieOS Family ISOs
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install build tools
+        run: sudo apt-get update && sudo apt-get install -y nasm g++-multilib grub-pc-bin xorriso python3
+      - name: Build all family ISO images
+        run: bash scripts/build.sh
+      - name: Upload ISO artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: budgieos-family-17-isos
+          path: dist/*.iso
+          if-no-files-found: error
+          retention-days: 14
