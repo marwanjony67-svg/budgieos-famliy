@@ -1,0 +1,109 @@
+{
+  "family": "BudgieOS Family",
+  "kernel": "BNU",
+  "architecture": "i386 BIOS starter",
+  "editions": [
+    {
+      "id": "budgieos",
+      "name": "BudgieOS",
+      "tagline": "Main custom OS",
+      "theme": "BudgieOS Blue"
+    },
+    {
+      "id": "budgieos-x",
+      "name": "BudgieOS X",
+      "tagline": "macOS-inspired",
+      "theme": "Midnight"
+    },
+    {
+      "id": "budgieos-xs",
+      "name": "BudgieOS XS",
+      "tagline": "Compact edition concept",
+      "theme": "Silver"
+    },
+    {
+      "id": "freebud",
+      "name": "FreeBud",
+      "tagline": "FreeBSD-inspired",
+      "theme": "Ocean"
+    },
+    {
+      "id": "libud",
+      "name": "Libud",
+      "tagline": "Linux-inspired",
+      "theme": "Classic"
+    },
+    {
+      "id": "unbud",
+      "name": "Unbud",
+      "tagline": "Unix-inspired",
+      "theme": "Terminal"
+    },
+    {
+      "id": "mintbud",
+      "name": "Mintbud",
+      "tagline": "Linux Mint-inspired",
+      "theme": "Mint"
+    },
+    {
+      "id": "ubunbud",
+      "name": "Ubunbud",
+      "tagline": "Ubuntu-inspired",
+      "theme": "Orange"
+    },
+    {
+      "id": "gnbud",
+      "name": "gnBud",
+      "tagline": "GNU-inspired",
+      "theme": "GNU"
+    },
+    {
+      "id": "susebud",
+      "name": "SUSebud",
+      "tagline": "SUSE-inspired",
+      "theme": "Green"
+    },
+    {
+      "id": "kalibud",
+      "name": "Kalibud",
+      "tagline": "Kali-inspired",
+      "theme": "Blue"
+    },
+    {
+      "id": "budgieosz",
+      "name": "BudgieOSz",
+      "tagline": "Professional edition concept",
+      "theme": "Pro Blue"
+    },
+    {
+      "id": "templbud",
+      "name": "Templbud",
+      "tagline": "TempleOS-inspired",
+      "theme": "Retro"
+    },
+    {
+      "id": "budgieos-classic",
+      "name": "BudgieOS 1991/2009",
+      "tagline": "Classic-era inspired",
+      "theme": "Classic"
+    },
+    {
+      "id": "hatbud",
+      "name": "Hatbud",
+      "tagline": "Red Hat-inspired",
+      "theme": "Red"
+    },
+    {
+      "id": "bu1",
+      "name": "BU1",
+      "tagline": "Gaming-inspired",
+      "theme": "Gaming"
+    },
+    {
+      "id": "budgieos-dev",
+      "name": "BudgieOS Developer",
+      "tagline": "Developer edition",
+      "theme": "Developer"
+    }
+  ]
+}
